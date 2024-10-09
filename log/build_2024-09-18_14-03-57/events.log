@@ -1,0 +1,249 @@
+[0.000000] (-) TimerEvent: {}
+[0.001300] (-) JobUnselected: {'identifier': 'libcxxcanard'}
+[0.001411] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.001481] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.001551] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.001617] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.001680] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.001741] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.001800] (-) JobUnselected: {'identifier': 'mtc_ruka'}
+[0.001860] (-) JobUnselected: {'identifier': 'new_ruka'}
+[0.001919] (-) JobUnselected: {'identifier': 'planner_base'}
+[0.001979] (-) JobUnselected: {'identifier': 'planner_plugins'}
+[0.002038] (-) JobUnselected: {'identifier': 'ruka_end_eff'}
+[0.002097] (-) JobUnselected: {'identifier': 'ruka_rename'}
+[0.002156] (-) JobUnselected: {'identifier': 'ruka_try'}
+[0.002216] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.002310] (-) JobUnselected: {'identifier': 'trajectory'}
+[0.002387] (ruka) JobQueued: {'identifier': 'ruka', 'dependencies': OrderedDict()}
+[0.002465] (ruka) JobStarted: {'identifier': 'ruka'}
+[0.020679] (ruka) JobProgress: {'identifier': 'ruka', 'progress': 'cmake'}
+[0.021291] (ruka) Command: {'cmd': ['/usr/bin/cmake', '/home/nat/ws_ruka/src/ruka', '-DCMAKE_INSTALL_PREFIX=/home/nat/ws_ruka/install/ruka'], 'cwd': '/home/nat/ws_ruka/build/ruka', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nat', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nat/ws_ruka/install/ruka/lib:/home/nat/ws_explorer/install/explorer/lib:/home/nat/ws_vr/install/vr/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nat', 'OLDPWD': '/home/nat', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2218', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nat/ws_explorer/install:/home/nat/roverchallenge-ru/install:/home/nat/ws_vr/install:/home/nat/ws_ruka/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nat', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nat', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Pad:@/tmp/.ICE-unix/2174,unix/Pad:/tmp/.ICE-unix/2174', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f3dcae4e_2386_48b2_97a1_b078e241cb02', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YIGGU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.798', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nat/ws_ruka/install/ruka:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/ws_explorer/install/explorer:/home/nat/ws_explorer/install/ros2_control_demo_description:/home/nat/roverchallenge-ru/install/simulation:/home/nat/ws_vr/install/vr:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nat/ws_ruka/build/ruka', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nat/ws_explorer/install/ros2_control_demo_testing/lib/python3.12/site-packages:/home/nat/roverchallenge-ru/install/simulation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nat/ws_ruka/install/ruka:/home/nat/ws_explorer/install/explorer:/home/nat/ws_explorer/install/ros2_control_demo_description:/home/nat/ws_vr/install/vr:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy'}), 'shell': False}
+[0.099394] (-) TimerEvent: {}
+[0.184765] (ruka) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.199628] (-) TimerEvent: {}
+[0.300109] (-) TimerEvent: {}
+[0.310741] (ruka) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.353155] (ruka) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400362] (-) TimerEvent: {}
+[0.501022] (-) TimerEvent: {}
+[0.566926] (ruka) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.584316] (ruka) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.585971] (ruka) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.586804] (ruka) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.601195] (-) TimerEvent: {}
+[0.610473] (ruka) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701366] (-) TimerEvent: {}
+[0.801918] (-) TimerEvent: {}
+[0.843861] (ruka) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.862049] (ruka) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.862668] (ruka) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.863668] (ruka) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.883837] (ruka) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.902040] (-) TimerEvent: {}
+[1.002551] (-) TimerEvent: {}
+[1.103070] (-) TimerEvent: {}
+[1.203571] (-) TimerEvent: {}
+[1.213582] (ruka) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.303727] (-) TimerEvent: {}
+[1.404160] (-) TimerEvent: {}
+[1.498500] (ruka) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.10.0 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)\n'}
+[1.504308] (-) TimerEvent: {}
+[1.604703] (-) TimerEvent: {}
+[1.705167] (-) TimerEvent: {}
+[1.800297] (ruka) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread \n'}
+[1.805314] (-) TimerEvent: {}
+[1.905776] (-) TimerEvent: {}
+[1.960421] (ruka) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.005087] (ruka) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.005881] (-) TimerEvent: {}
+[2.054837] (ruka) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.106087] (-) TimerEvent: {}
+[2.107287] (ruka) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.206289] (-) TimerEvent: {}
+[2.306765] (-) TimerEvent: {}
+[2.407194] (-) TimerEvent: {}
+[2.507568] (-) TimerEvent: {}
+[2.607920] (-) TimerEvent: {}
+[2.708302] (-) TimerEvent: {}
+[2.808660] (-) TimerEvent: {}
+[2.829581] (ruka) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[2.908784] (-) TimerEvent: {}
+[3.009161] (-) TimerEvent: {}
+[3.023467] (ruka) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/jazzy/share/parameter_traits/cmake)\n'}
+[3.109333] (-) TimerEvent: {}
+[3.168745] (ruka) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[3.188581] (ruka) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.209506] (-) TimerEvent: {}
+[3.309940] (-) TimerEvent: {}
+[3.410378] (-) TimerEvent: {}
+[3.442654] (ruka) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[3.477557] (ruka) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[3.510544] (-) TimerEvent: {}
+[3.526577] (ruka) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.610689] (-) TimerEvent: {}
+[3.711112] (-) TimerEvent: {}
+[3.751595] (ruka) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.3 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[3.811305] (-) TimerEvent: {}
+[3.841821] (ruka) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem \n'}
+[3.911486] (-) TimerEvent: {}
+[4.011882] (ruka) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[4.012251] (-) TimerEvent: {}
+[4.012577] (ruka) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.112405] (-) TimerEvent: {}
+[4.212794] (-) TimerEvent: {}
+[4.313185] (-) TimerEvent: {}
+[4.413619] (-) TimerEvent: {}
+[4.457313] (ruka) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono \n'}
+[4.513782] (-) TimerEvent: {}
+[4.580320] (ruka) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options \n'}
+[4.613913] (-) TimerEvent: {}
+[4.651335] (ruka) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread \n'}
+[4.714095] (-) TimerEvent: {}
+[4.747459] (ruka) StdoutLine: {'line': b'-- Found hardware_interface: 4.15.0 (/opt/ros/jazzy/share/hardware_interface/cmake)\n'}
+[4.814272] (-) TimerEvent: {}
+[4.908657] (ruka) StdoutLine: {'line': b'-- Found controller_interface: 4.15.0 (/opt/ros/jazzy/share/controller_interface/cmake)\n'}
+[4.914383] (-) TimerEvent: {}
+[4.927881] (ruka) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.5.2 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)\n'}
+[5.014569] (-) TimerEvent: {}
+[5.095121] (ruka) StdoutLine: {'line': b'-- Configuring done (5.1s)\n'}
+[5.114712] (-) TimerEvent: {}
+[5.159998] (ruka) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[5.164173] (ruka) StdoutLine: {'line': b'-- Build files have been written to: /home/nat/ws_ruka/build/ruka\n'}
+[5.189324] (ruka) CommandEnded: {'returncode': 0}
+[5.191836] (ruka) JobProgress: {'identifier': 'ruka', 'progress': 'build'}
+[5.191929] (ruka) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nat/ws_ruka/build/ruka', '--', '-j12', '-l12'], 'cwd': '/home/nat/ws_ruka/build/ruka', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nat', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nat/ws_ruka/install/ruka/lib:/home/nat/ws_explorer/install/explorer/lib:/home/nat/ws_vr/install/vr/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nat', 'OLDPWD': '/home/nat', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2218', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nat/ws_explorer/install:/home/nat/roverchallenge-ru/install:/home/nat/ws_vr/install:/home/nat/ws_ruka/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nat', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nat', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Pad:@/tmp/.ICE-unix/2174,unix/Pad:/tmp/.ICE-unix/2174', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f3dcae4e_2386_48b2_97a1_b078e241cb02', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YIGGU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.798', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nat/ws_ruka/install/ruka:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/ws_explorer/install/explorer:/home/nat/ws_explorer/install/ros2_control_demo_description:/home/nat/roverchallenge-ru/install/simulation:/home/nat/ws_vr/install/vr:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nat/ws_ruka/build/ruka', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nat/ws_explorer/install/ros2_control_demo_testing/lib/python3.12/site-packages:/home/nat/roverchallenge-ru/install/simulation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nat/ws_ruka/install/ruka:/home/nat/ws_explorer/install/explorer:/home/nat/ws_explorer/install/ros2_control_demo_description:/home/nat/ws_vr/install/vr:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy'}), 'shell': False}
+[5.215285] (-) TimerEvent: {}
+[5.315670] (-) TimerEvent: {}
+[5.317041] (ruka) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ruka.dir/hardware/ruka_hardware.cpp.o\x1b[0m\n'}
+[5.317652] (ruka) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ruka.dir/hardware/ruka_sensor_hardware.cpp.o\x1b[0m\n'}
+[5.416034] (-) TimerEvent: {}
+[5.516658] (-) TimerEvent: {}
+[5.617308] (-) TimerEvent: {}
+[5.717924] (-) TimerEvent: {}
+[5.818530] (-) TimerEvent: {}
+[5.919171] (-) TimerEvent: {}
+[6.019828] (-) TimerEvent: {}
+[6.120468] (-) TimerEvent: {}
+[6.221109] (-) TimerEvent: {}
+[6.321757] (-) TimerEvent: {}
+[6.422396] (-) TimerEvent: {}
+[6.523017] (-) TimerEvent: {}
+[6.623704] (-) TimerEvent: {}
+[6.724349] (-) TimerEvent: {}
+[6.824983] (-) TimerEvent: {}
+[6.925636] (-) TimerEvent: {}
+[7.026307] (-) TimerEvent: {}
+[7.126944] (-) TimerEvent: {}
+[7.227582] (-) TimerEvent: {}
+[7.328012] (-) TimerEvent: {}
+[7.428650] (-) TimerEvent: {}
+[7.529075] (-) TimerEvent: {}
+[7.629523] (-) TimerEvent: {}
+[7.730325] (-) TimerEvent: {}
+[7.830968] (-) TimerEvent: {}
+[7.931620] (-) TimerEvent: {}
+[8.032296] (-) TimerEvent: {}
+[8.132728] (-) TimerEvent: {}
+[8.233330] (-) TimerEvent: {}
+[8.333933] (-) TimerEvent: {}
+[8.434370] (-) TimerEvent: {}
+[8.534786] (-) TimerEvent: {}
+[8.635219] (-) TimerEvent: {}
+[8.735660] (-) TimerEvent: {}
+[8.836078] (-) TimerEvent: {}
+[8.936516] (-) TimerEvent: {}
+[9.036957] (-) TimerEvent: {}
+[9.137420] (-) TimerEvent: {}
+[9.237869] (-) TimerEvent: {}
+[9.338302] (-) TimerEvent: {}
+[9.438715] (-) TimerEvent: {}
+[9.539173] (-) TimerEvent: {}
+[9.639640] (-) TimerEvent: {}
+[9.740054] (-) TimerEvent: {}
+[9.840494] (-) TimerEvent: {}
+[9.939952] (ruka) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nat/ws_ruka/src/ruka/hardware/ruka_sensor_hardware.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type ruka::RukaSensor::\x1b[01;32m\x1b[Kread\x1b[m\x1b[K(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.940389] (ruka) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nat/ws_ruka/src/ruka/hardware/ruka_sensor_hardware.cpp:105:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kseed\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.940615] (-) TimerEvent: {}
+[9.940793] (ruka) StderrLine: {'line': b'  105 |     unsigned int \x1b[01;35m\x1b[Kseed\x1b[m\x1b[K = time(NULL) + i;\n'}
+[9.941084] (ruka) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.040816] (-) TimerEvent: {}
+[10.141224] (-) TimerEvent: {}
+[10.241664] (-) TimerEvent: {}
+[10.342102] (-) TimerEvent: {}
+[10.442560] (-) TimerEvent: {}
+[10.542960] (-) TimerEvent: {}
+[10.643362] (-) TimerEvent: {}
+[10.743766] (-) TimerEvent: {}
+[10.844205] (-) TimerEvent: {}
+[10.944625] (-) TimerEvent: {}
+[11.045064] (-) TimerEvent: {}
+[11.145486] (-) TimerEvent: {}
+[11.245857] (-) TimerEvent: {}
+[11.346293] (-) TimerEvent: {}
+[11.446695] (-) TimerEvent: {}
+[11.547098] (-) TimerEvent: {}
+[11.583937] (ruka) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libruka.so\x1b[0m\n'}
+[11.647299] (-) TimerEvent: {}
+[11.747739] (-) TimerEvent: {}
+[11.848221] (-) TimerEvent: {}
+[11.948689] (-) TimerEvent: {}
+[12.049129] (-) TimerEvent: {}
+[12.128449] (ruka) StdoutLine: {'line': b'[100%] Built target ruka\n'}
+[12.148125] (ruka) CommandEnded: {'returncode': 0}
+[12.149470] (-) TimerEvent: {}
+[12.194604] (ruka) JobProgress: {'identifier': 'ruka', 'progress': 'install'}
+[12.206769] (ruka) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nat/ws_ruka/build/ruka'], 'cwd': '/home/nat/ws_ruka/build/ruka', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nat', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nat/ws_ruka/install/ruka/lib:/home/nat/ws_explorer/install/explorer/lib:/home/nat/ws_vr/install/vr/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nat', 'OLDPWD': '/home/nat', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2218', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nat/ws_explorer/install:/home/nat/roverchallenge-ru/install:/home/nat/ws_vr/install:/home/nat/ws_ruka/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nat', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nat', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Pad:@/tmp/.ICE-unix/2174,unix/Pad:/tmp/.ICE-unix/2174', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f3dcae4e_2386_48b2_97a1_b078e241cb02', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YIGGU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.798', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nat/ws_ruka/install/ruka:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/ws_explorer/install/explorer:/home/nat/ws_explorer/install/ros2_control_demo_description:/home/nat/roverchallenge-ru/install/simulation:/home/nat/ws_vr/install/vr:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nat/ws_ruka/build/ruka', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nat/ws_explorer/install/ros2_control_demo_testing/lib/python3.12/site-packages:/home/nat/roverchallenge-ru/install/simulation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nat/ws_ruka/install/ruka:/home/nat/ws_explorer/install/explorer:/home/nat/ws_explorer/install/ros2_control_demo_description:/home/nat/ws_vr/install/vr:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy'}), 'shell': False}
+[12.216603] (ruka) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.216993] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/ruka.xml\n'}
+[12.217210] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/launch\n'}
+[12.217579] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/launch/without_cont.launch.py\n'}
+[12.217783] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/launch/with_cont.launch.py\n'}
+[12.217979] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/config\n'}
+[12.218174] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/config/ompl_planning.yaml\n'}
+[12.218412] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/config/ros2_controllers.yaml\n'}
+[12.218676] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/config/ruka.srdf\n'}
+[12.218790] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/config/pilz_cartesian_limits.yaml\n'}
+[12.218915] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/config/moveit_controllers.yaml\n'}
+[12.219014] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/config/moveit.rviz\n'}
+[12.219089] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/config/sensors_3d.yaml\n'}
+[12.219200] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/config/imu.ros2_control.xacro\n'}
+[12.219291] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/config/ruka.ros2_control.xacro\n'}
+[12.219395] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/config/joint_limits.yaml\n'}
+[12.219494] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/config/ruka.urdf.xacro\n'}
+[12.219566] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/config/ruka.urdf\n'}
+[12.219642] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/config/kinematics.yaml\n'}
+[12.219718] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/config/initial_positions.yaml\n'}
+[12.219793] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/.setup_assistant\n'}
+[12.219869] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/include/ruka\n'}
+[12.219967] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/include/ruka/ruka_sensor_hardware.hpp\n'}
+[12.220043] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/include/ruka/visibility_control.h\n'}
+[12.220116] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/include/ruka/ruka_hardware.hpp\n'}
+[12.220189] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/lib/libruka.so\n'}
+[12.220586] (ruka) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nat/ws_ruka/install/ruka/lib/libruka.so" to ""\n'}
+[12.220704] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/environment/library_path.sh\n'}
+[12.220834] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/environment/library_path.dsv\n'}
+[12.221071] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ament_index/resource_index/package_run_dependencies/ruka\n'}
+[12.221276] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ament_index/resource_index/parent_prefix_path/ruka\n'}
+[12.221428] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/environment/ament_prefix_path.sh\n'}
+[12.221560] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/environment/ament_prefix_path.dsv\n'}
+[12.221691] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/environment/path.sh\n'}
+[12.221823] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/environment/path.dsv\n'}
+[12.221952] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/local_setup.bash\n'}
+[12.222087] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/local_setup.sh\n'}
+[12.222221] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/local_setup.zsh\n'}
+[12.222366] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/local_setup.dsv\n'}
+[12.222501] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/package.dsv\n'}
+[12.222694] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ament_index/resource_index/packages/ruka\n'}
+[12.222881] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ruka\n'}
+[12.223103] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/cmake/export_rukaExport.cmake\n'}
+[12.223276] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/cmake/export_rukaExport-noconfig.cmake\n'}
+[12.223418] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.223538] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.223676] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/cmake/rukaConfig.cmake\n'}
+[12.223793] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/cmake/rukaConfig-version.cmake\n'}
+[12.223909] (ruka) StdoutLine: {'line': b'-- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/package.xml\n'}
+[12.226150] (ruka) CommandEnded: {'returncode': 0}
+[12.249665] (-) TimerEvent: {}
+[12.294050] (ruka) JobEnded: {'identifier': 'ruka', 'rc': 0}
+[12.295552] (-) EventReactorShutdown: {}

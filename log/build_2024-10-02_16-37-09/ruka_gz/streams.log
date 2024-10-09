@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/nat/ws_ruka/build/ruka_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_ruka/install/ruka_gz:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nat/ws_ruka/build/ruka_gz -- -j12 -l12
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/ruka_gz.dir/hardware/ruka_gz_hardware.cpp.o[0m
+[1.932s] [100%] [32m[1mLinking CXX shared library libruka_gz.so[0m
+[2.565s] [100%] Built target ruka_gz
+[2.581s] Invoked command in '/home/nat/ws_ruka/build/ruka_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_ruka/install/ruka_gz:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nat/ws_ruka/build/ruka_gz -- -j12 -l12
+[2.630s] Invoking command in '/home/nat/ws_ruka/build/ruka_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_ruka/install/ruka_gz:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nat/ws_ruka/build/ruka_gz
+[2.641s] -- Install configuration: ""
+[2.641s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/ruka_gz.xml
+[2.641s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/launch
+[2.641s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/launch/gazebo.launch.py
+[2.641s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config
+[2.641s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/ros2_controllers.yaml
+[2.642s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/ruka_gz.urdf.xacro
+[2.642s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/ruka_gz.urdf
+[2.642s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/ruka_gz.ros2_control.xacro
+[2.642s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/params.yaml
+[2.642s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/initial_positions.yaml
+[2.642s] [31mCMake Error at cmake_install.cmake:58 (file):
+[2.642s]   file INSTALL cannot find "/home/nat/ws_ruka/src/ruka_gz/.setup_assistant":
+[2.642s]   No such file or directory.
+[2.642s] 
+[2.642s] [0m
+[2.644s] Invoked command in '/home/nat/ws_ruka/build/ruka_gz' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_ruka/install/ruka_gz:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nat/ws_ruka/build/ruka_gz

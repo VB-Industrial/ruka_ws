@@ -1,0 +1,34 @@
+[0.000000] (-) TimerEvent: {}
+[0.001184] (-) JobUnselected: {'identifier': 'hello_moveit'}
+[0.001256] (-) JobUnselected: {'identifier': 'hello_moveit_task_constructor'}
+[0.001297] (-) JobUnselected: {'identifier': 'hello_mtc_with_perception'}
+[0.001332] (-) JobUnselected: {'identifier': 'libcxxcanard'}
+[0.001366] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.001400] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.001433] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.001465] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.001497] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.001529] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.001561] (-) JobUnselected: {'identifier': 'mtc_ruka'}
+[0.001598] (-) JobUnselected: {'identifier': 'mycobot_description'}
+[0.001651] (-) JobUnselected: {'identifier': 'mycobot_gazebo'}
+[0.001689] (-) JobUnselected: {'identifier': 'mycobot_interfaces'}
+[0.001723] (-) JobUnselected: {'identifier': 'mycobot_moveit_config'}
+[0.001759] (-) JobUnselected: {'identifier': 'mycobot_moveit_config_manual_setup'}
+[0.001794] (-) JobUnselected: {'identifier': 'mycobot_ros2'}
+[0.001829] (-) JobUnselected: {'identifier': 'new_ruka'}
+[0.001863] (-) JobUnselected: {'identifier': 'panda_ros2_gazebo'}
+[0.001899] (-) JobUnselected: {'identifier': 'planner_base'}
+[0.001943] (-) JobUnselected: {'identifier': 'planner_plugins'}
+[0.001978] (-) JobUnselected: {'identifier': 'ruka'}
+[0.002014] (-) JobUnselected: {'identifier': 'ruka_end_eff'}
+[0.002049] (-) JobUnselected: {'identifier': 'ruka_rename'}
+[0.002084] (-) JobUnselected: {'identifier': 'ruka_try'}
+[0.002119] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.002154] (-) JobUnselected: {'identifier': 'trajectory'}
+[0.002195] (ruka_gz) JobQueued: {'identifier': 'ruka_gz', 'dependencies': OrderedDict()}
+[0.002238] (ruka_gz) JobStarted: {'identifier': 'ruka_gz'}
+[0.091468] (ruka_gz) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 94, in build\n    available_commands = await self._get_available_commands(\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 192, in _get_available_commands\n    output = await check_output(\n             ^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\n           ^^^^^^\nAssertionError: Expected [\'/usr/bin/python3\', \'-W\', \'ignore:setup.py install is deprecated\', \'setup.py\', \'--help-commands\'] to pass: /usr/bin/python3: can\'t open file \'/home/nat/ws_ruka/src/ruka_gz/setup.py\': [Errno 2] No such file or directory\n\n'}
+[0.092725] (ruka_gz) JobEnded: {'identifier': 'ruka_gz', 'rc': 1}
+[0.099295] (-) TimerEvent: {}
+[0.102446] (-) EventReactorShutdown: {}

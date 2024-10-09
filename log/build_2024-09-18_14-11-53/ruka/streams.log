@@ -1,0 +1,57 @@
+[0.023s] Invoking command in '/home/nat/ws_ruka/build/ruka': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nat/ws_ruka/build/ruka -- -j12 -l12
+[0.176s] [ 33%] [32mBuilding CXX object CMakeFiles/ruka.dir/hardware/ruka_sensor_hardware.cpp.o[0m
+[7.351s] [ 66%] [32m[1mLinking CXX shared library libruka.so[0m
+[8.073s] [100%] Built target ruka
+[8.091s] Invoked command in '/home/nat/ws_ruka/build/ruka' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nat/ws_ruka/build/ruka -- -j12 -l12
+[8.149s] Invoking command in '/home/nat/ws_ruka/build/ruka': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nat/ws_ruka/build/ruka
+[8.160s] -- Install configuration: ""
+[8.160s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/ruka.xml
+[8.160s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/launch
+[8.161s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/launch/all.launch.py
+[8.161s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/launch/without_cont.launch.py
+[8.162s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/launch/with_cont.launch.py
+[8.162s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/config
+[8.162s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/config/ompl_planning.yaml
+[8.162s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/config/ros2_controllers.yaml
+[8.162s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/config/ruka.srdf
+[8.162s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/config/pilz_cartesian_limits.yaml
+[8.163s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/config/moveit_controllers.yaml
+[8.163s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/config/moveit.rviz
+[8.163s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/config/sensors_3d.yaml
+[8.163s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/config/imu.ros2_control.xacro
+[8.163s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/config/ruka.ros2_control.xacro
+[8.163s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/config/joint_limits.yaml
+[8.163s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/config/ruka.urdf.xacro
+[8.163s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/config/ruka.urdf
+[8.164s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/config/kinematics.yaml
+[8.164s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/config/initial_positions.yaml
+[8.164s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/.setup_assistant
+[8.164s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/include/ruka
+[8.164s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/include/ruka/ruka_sensor_hardware.hpp
+[8.164s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/include/ruka/visibility_control.h
+[8.164s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/include/ruka/ruka_hardware.hpp
+[8.164s] -- Installing: /home/nat/ws_ruka/install/ruka/lib/libruka.so
+[8.164s] -- Set non-toolchain portion of runtime path of "/home/nat/ws_ruka/install/ruka/lib/libruka.so" to ""
+[8.164s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/environment/library_path.sh
+[8.164s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/environment/library_path.dsv
+[8.164s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ament_index/resource_index/package_run_dependencies/ruka
+[8.165s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ament_index/resource_index/parent_prefix_path/ruka
+[8.165s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/environment/ament_prefix_path.sh
+[8.165s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/environment/ament_prefix_path.dsv
+[8.165s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/environment/path.sh
+[8.165s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/environment/path.dsv
+[8.165s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/local_setup.bash
+[8.165s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/local_setup.sh
+[8.165s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/local_setup.zsh
+[8.165s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/local_setup.dsv
+[8.165s] -- Installing: /home/nat/ws_ruka/install/ruka/share/ruka/package.dsv
+[8.166s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ament_index/resource_index/packages/ruka
+[8.166s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ruka
+[8.166s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/cmake/export_rukaExport.cmake
+[8.166s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/cmake/export_rukaExport-noconfig.cmake
+[8.166s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/cmake/ament_cmake_export_targets-extras.cmake
+[8.166s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.166s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/cmake/rukaConfig.cmake
+[8.166s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/cmake/rukaConfig-version.cmake
+[8.166s] -- Up-to-date: /home/nat/ws_ruka/install/ruka/share/ruka/package.xml
+[8.167s] Invoked command in '/home/nat/ws_ruka/build/ruka' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nat/ws_ruka/build/ruka

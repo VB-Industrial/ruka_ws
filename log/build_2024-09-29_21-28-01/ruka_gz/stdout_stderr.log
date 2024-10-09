@@ -1,0 +1,8 @@
+WARNING: '/home/nat/ruka_gz' not a valid package name; please use only .-separated package names in setup.py
+running egg_info
+writing ../../build/ruka_gz/ruka_gz.egg-info/PKG-INFO
+writing dependency_links to ../../build/ruka_gz/ruka_gz.egg-info/dependency_links.txt
+writing entry points to ../../build/ruka_gz/ruka_gz.egg-info/entry_points.txt
+writing requirements to ../../build/ruka_gz/ruka_gz.egg-info/requires.txt
+writing top-level names to ../../build/ruka_gz/ruka_gz.egg-info/top_level.txt
+error: package directory '/home/nat/ruka_gz' does not exist

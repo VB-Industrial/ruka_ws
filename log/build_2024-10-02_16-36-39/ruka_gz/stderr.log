@@ -1,0 +1,7 @@
+[01m[K/home/nat/ws_ruka/src/ruka_gz/hardware/ruka_gz_hardware.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kruka_hardware.hpp: No such file or directory
+    1 | #include [01;31m[K"ruka_hardware.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ruka_gz.dir/build.make:76: CMakeFiles/ruka_gz.dir/hardware/ruka_gz_hardware.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ruka_gz.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

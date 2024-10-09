@@ -1,0 +1,5 @@
+<library path="planner_plugins">
+  <class type="planner_plugins::Try" base_class_type="kinematics::KinematicsBase">
+    <description>This is a try plugin.</description>
+  </class>
+</library>

@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/ruka_gz/ruka_gz.egg-info/PKG-INFO
+writing dependency_links to ../../build/ruka_gz/ruka_gz.egg-info/dependency_links.txt
+writing entry points to ../../build/ruka_gz/ruka_gz.egg-info/entry_points.txt
+writing requirements to ../../build/ruka_gz/ruka_gz.egg-info/requires.txt
+writing top-level names to ../../build/ruka_gz/ruka_gz.egg-info/top_level.txt
+reading manifest file '../../build/ruka_gz/ruka_gz.egg-info/SOURCES.txt'
+writing manifest file '../../build/ruka_gz/ruka_gz.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+copying launch/gazebo.launch.py -> /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz
+copying config/ruka_gz.urdf -> /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/
+running install_egg_info
+removing '/home/nat/ws_ruka/install/ruka_gz/lib/python3.12/site-packages/ruka_gz-0.0.1-py3.12.egg-info' (and everything under it)
+Copying ../../build/ruka_gz/ruka_gz.egg-info to /home/nat/ws_ruka/install/ruka_gz/lib/python3.12/site-packages/ruka_gz-0.0.1-py3.12.egg-info
+running install_scripts
+Installing ruka script to /home/nat/ws_ruka/install/ruka_gz/bin
+writing list of installed files to '/home/nat/ws_ruka/build/ruka_gz/install.log'

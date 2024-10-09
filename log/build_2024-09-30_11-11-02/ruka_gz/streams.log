@@ -1,0 +1,20 @@
+[1.533s] Invoking command in '/home/nat/ws_ruka/src/ruka_gz': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nat/ws_ruka/build/ruka_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nat/ws_ruka/install/ruka_gz/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ruka_gz build --build-base /home/nat/ws_ruka/build/ruka_gz/build install --record /home/nat/ws_ruka/build/ruka_gz/install.log --single-version-externally-managed install_data
+[1.997s] running egg_info
+[2.032s] writing ../../build/ruka_gz/ruka_gz.egg-info/PKG-INFO
+[2.033s] writing dependency_links to ../../build/ruka_gz/ruka_gz.egg-info/dependency_links.txt
+[2.033s] writing entry points to ../../build/ruka_gz/ruka_gz.egg-info/entry_points.txt
+[2.033s] writing requirements to ../../build/ruka_gz/ruka_gz.egg-info/requires.txt
+[2.033s] writing top-level names to ../../build/ruka_gz/ruka_gz.egg-info/top_level.txt
+[2.069s] reading manifest file '../../build/ruka_gz/ruka_gz.egg-info/SOURCES.txt'
+[2.070s] writing manifest file '../../build/ruka_gz/ruka_gz.egg-info/SOURCES.txt'
+[2.070s] running build
+[2.070s] running install
+[2.081s] running install_data
+[2.082s] copying launch/gazebo.launch.py -> /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz
+[2.083s] running install_egg_info
+[2.155s] removing '/home/nat/ws_ruka/install/ruka_gz/lib/python3.12/site-packages/ruka_gz-0.0.1-py3.12.egg-info' (and everything under it)
+[2.156s] Copying ../../build/ruka_gz/ruka_gz.egg-info to /home/nat/ws_ruka/install/ruka_gz/lib/python3.12/site-packages/ruka_gz-0.0.1-py3.12.egg-info
+[2.158s] running install_scripts
+[2.391s] Installing ruka script to /home/nat/ws_ruka/install/ruka_gz/bin
+[2.391s] writing list of installed files to '/home/nat/ws_ruka/build/ruka_gz/install.log'
+[2.443s] Invoked command in '/home/nat/ws_ruka/src/ruka_gz' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nat/ws_ruka/build/ruka_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nat/ws_ruka/install/ruka_gz/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ruka_gz build --build-base /home/nat/ws_ruka/build/ruka_gz/build install --record /home/nat/ws_ruka/build/ruka_gz/install.log --single-version-externally-managed install_data

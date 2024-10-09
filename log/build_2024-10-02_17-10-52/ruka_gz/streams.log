@@ -1,0 +1,56 @@
+[0.013s] Invoking command in '/home/nat/ws_ruka/build/ruka_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nat/ws_ruka/src/ruka_gz -DCMAKE_INSTALL_PREFIX=/home/nat/ws_ruka/install/ruka_gz
+[0.030s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.256s] -- Found gz_ros2_control: 1.2.7 (/opt/ros/jazzy/share/gz_ros2_control/cmake)
+[0.258s] -- Found moveit_ros_planning_interface: 2.10.0 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[0.269s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[0.297s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.306s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.317s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.330s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.613s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.645s] -- Found parameter_traits: 0.3.8 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[0.682s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.684s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.754s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.824s] -- Found rclcpp_lifecycle: 28.1.3 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.857s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[0.903s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.031s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[1.083s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[1.110s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[1.149s] -- Found controller_interface: 4.15.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.214s] -- Found ament_cmake_gtest: 2.5.2 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.306s] -- Configuring done (1.3s)
+[1.314s] -- Generating done (0.0s)
+[1.317s] -- Build files have been written to: /home/nat/ws_ruka/build/ruka_gz
+[1.330s] Invoked command in '/home/nat/ws_ruka/build/ruka_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nat/ws_ruka/src/ruka_gz -DCMAKE_INSTALL_PREFIX=/home/nat/ws_ruka/install/ruka_gz
+[1.331s] Invoking command in '/home/nat/ws_ruka/build/ruka_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nat/ws_ruka/build/ruka_gz -- -j12 -l12
+[1.394s] Invoked command in '/home/nat/ws_ruka/build/ruka_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nat/ws_ruka/build/ruka_gz -- -j12 -l12
+[1.438s] Invoking command in '/home/nat/ws_ruka/build/ruka_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nat/ws_ruka/build/ruka_gz
+[1.448s] -- Install configuration: ""
+[1.448s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/launch
+[1.448s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/launch/gazebo.launch.py
+[1.449s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config
+[1.449s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/ros2_controllers.yaml
+[1.449s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/ruka_gz.urdf.xacro
+[1.449s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/ruka_gz.urdf
+[1.449s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/ruka_gz.ros2_control.xacro
+[1.449s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/params.yaml
+[1.457s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/initial_positions.yaml
+[1.458s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ament_index/resource_index/package_run_dependencies/ruka_gz
+[1.458s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ament_index/resource_index/parent_prefix_path/ruka_gz
+[1.458s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/environment/ament_prefix_path.sh
+[1.458s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/environment/ament_prefix_path.dsv
+[1.459s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/environment/path.sh
+[1.459s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/environment/path.dsv
+[1.459s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/local_setup.bash
+[1.459s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/local_setup.sh
+[1.459s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/local_setup.zsh
+[1.459s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/local_setup.dsv
+[1.459s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/package.dsv
+[1.459s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ament_index/resource_index/packages/ruka_gz
+[1.459s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.460s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/cmake/ruka_gzConfig.cmake
+[1.460s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/cmake/ruka_gzConfig-version.cmake
+[1.460s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/package.xml
+[1.462s] Invoked command in '/home/nat/ws_ruka/build/ruka_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nat/ws_ruka/build/ruka_gz

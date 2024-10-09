@@ -1,0 +1,4 @@
+[01m[K/home/nat/ws_ruka/src/ruka/hardware/ruka_sensor_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ruka::RukaSensor::[01;32m[Kread[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/nat/ws_ruka/src/ruka/hardware/ruka_sensor_hardware.cpp:105:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kseed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  105 |     unsigned int [01;35m[Kseed[m[K = time(NULL) + i;
+      |                  [01;35m[K^~~~[m[K

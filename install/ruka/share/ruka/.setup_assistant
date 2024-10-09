@@ -1,0 +1,27 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: r_t
+    relative_path: models/ruka.urdf
+  srdf:
+    relative_path: config/ruka.srdf
+  package_settings:
+    author_name: N
+    author_email: nata@voltbro.com
+    generated_timestamp: 1705239403
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity

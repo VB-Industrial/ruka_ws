@@ -1,0 +1,4 @@
+source;share/ruka/local_setup.bash
+source;share/ruka/local_setup.dsv
+source;share/ruka/local_setup.sh
+source;share/ruka/local_setup.zsh

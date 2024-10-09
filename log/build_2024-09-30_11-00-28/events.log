@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (-) JobUnselected: {'identifier': 'hello_moveit'}
+[0.000306] (-) JobUnselected: {'identifier': 'hello_moveit_task_constructor'}
+[0.000335] (-) JobUnselected: {'identifier': 'hello_mtc_with_perception'}
+[0.000358] (-) JobUnselected: {'identifier': 'libcxxcanard'}
+[0.000380] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.000402] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.000422] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.000442] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.000462] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.000482] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.000502] (-) JobUnselected: {'identifier': 'mtc_ruka'}
+[0.000522] (-) JobUnselected: {'identifier': 'mycobot_description'}
+[0.000542] (-) JobUnselected: {'identifier': 'mycobot_gazebo'}
+[0.000562] (-) JobUnselected: {'identifier': 'mycobot_interfaces'}
+[0.000582] (-) JobUnselected: {'identifier': 'mycobot_moveit_config'}
+[0.000622] (-) JobUnselected: {'identifier': 'mycobot_moveit_config_manual_setup'}
+[0.000642] (-) JobUnselected: {'identifier': 'mycobot_ros2'}
+[0.000662] (-) JobUnselected: {'identifier': 'planner_base'}
+[0.000682] (-) JobUnselected: {'identifier': 'planner_plugins'}
+[0.000701] (-) JobUnselected: {'identifier': 'ruka'}
+[0.000729] (-) JobUnselected: {'identifier': 'ruka_end_eff'}
+[0.000749] (-) JobUnselected: {'identifier': 'ruka_try'}
+[0.000771] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.000798] (ruka_gz) JobQueued: {'identifier': 'ruka_gz', 'dependencies': OrderedDict()}
+[0.002024] (ruka_gz) JobStarted: {'identifier': 'ruka_gz'}
+[0.099502] (-) TimerEvent: {}
+[0.199971] (-) TimerEvent: {}
+[0.300398] (-) TimerEvent: {}
+[0.400859] (-) TimerEvent: {}
+[0.501283] (-) TimerEvent: {}
+[0.601668] (-) TimerEvent: {}
+[0.702058] (-) TimerEvent: {}
+[0.802441] (-) TimerEvent: {}
+[0.902922] (-) TimerEvent: {}
+[1.003393] (-) TimerEvent: {}
+[1.103894] (-) TimerEvent: {}
+[1.204366] (-) TimerEvent: {}
+[1.304865] (-) TimerEvent: {}
+[1.405561] (-) TimerEvent: {}
+[1.506102] (-) TimerEvent: {}
+[1.558345] (ruka_gz) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ruka_gz', 'build', '--build-base', '/home/nat/ws_ruka/build/ruka_gz/build', 'install', '--record', '/home/nat/ws_ruka/build/ruka_gz/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nat/ws_ruka/src/ruka_gz', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nat', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nat/ws_ruka/install/ruka/lib:/home/nat/ws_explorer/install/explorer/lib:/home/nat/ws_vr/install/vr/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nat', 'OLDPWD': '/home/nat', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2319', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nat/ws_explorer/install:/home/nat/roverchallenge-ru/install:/home/nat/ws_vr/install:/home/nat/ws_ruka/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nat', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nat', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nat/ws_ruka/install/ruka_gz/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nat/Matlab/R2024a/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Pad:@/tmp/.ICE-unix/2289,unix/Pad:/tmp/.ICE-unix/2289', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/nat/fastdds_supeclient.xml', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9f822616_b62d_48d4_bcaa_a183162d223c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6GGYU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.607', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nat/ws_ruka/install/ruka_gz:/home/nat/ws_ruka/install/ruka:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/ws_explorer/install/explorer:/home/nat/ws_explorer/install/ros2_control_demo_description:/home/nat/roverchallenge-ru/install/simulation:/home/nat/ws_vr/install/vr:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nat/ws_ruka/build/ruka_gz', 'QT_QPA_PLATFORM': 'xcb', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nat/ws_ruka/build/ruka_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nat/ws_ruka/install/ruka_gz/lib/python3.12/site-packages:/home/nat/ws_ruka/install/ruka_gz/lib/python3.12/site-packages:/home/nat/ws_explorer/install/ros2_control_demo_testing/lib/python3.12/site-packages:/home/nat/roverchallenge-ru/install/simulation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nat/ws_ruka/install/ruka:/home/nat/ws_explorer/install/explorer:/home/nat/ws_explorer/install/ros2_control_demo_description:/home/nat/ws_vr/install/vr:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.606266] (-) TimerEvent: {}
+[1.706730] (-) TimerEvent: {}
+[1.807211] (-) TimerEvent: {}
+[1.907717] (-) TimerEvent: {}
+[2.008268] (-) TimerEvent: {}
+[2.033260] (ruka_gz) StdoutLine: {'line': b'running egg_info\n'}
+[2.068437] (ruka_gz) StdoutLine: {'line': b'writing ../../build/ruka_gz/ruka_gz.egg-info/PKG-INFO\n'}
+[2.068847] (ruka_gz) StdoutLine: {'line': b'writing dependency_links to ../../build/ruka_gz/ruka_gz.egg-info/dependency_links.txt\n'}
+[2.069105] (ruka_gz) StdoutLine: {'line': b'writing entry points to ../../build/ruka_gz/ruka_gz.egg-info/entry_points.txt\n'}
+[2.069361] (ruka_gz) StdoutLine: {'line': b'writing requirements to ../../build/ruka_gz/ruka_gz.egg-info/requires.txt\n'}
+[2.069608] (ruka_gz) StdoutLine: {'line': b'writing top-level names to ../../build/ruka_gz/ruka_gz.egg-info/top_level.txt\n'}
+[2.105673] (ruka_gz) StdoutLine: {'line': b"reading manifest file '../../build/ruka_gz/ruka_gz.egg-info/SOURCES.txt'\n"}
+[2.106373] (ruka_gz) StdoutLine: {'line': b"writing manifest file '../../build/ruka_gz/ruka_gz.egg-info/SOURCES.txt'\n"}
+[2.106709] (ruka_gz) StdoutLine: {'line': b'running build\n'}
+[2.106866] (ruka_gz) StdoutLine: {'line': b'running install\n'}
+[2.108346] (-) TimerEvent: {}
+[2.117728] (ruka_gz) StdoutLine: {'line': b'running install_data\n'}
+[2.118160] (ruka_gz) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz\n'}
+[2.118537] (ruka_gz) StdoutLine: {'line': b'copying config/ros_control.yaml -> /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/\n'}
+[2.119785] (ruka_gz) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.193386] (ruka_gz) StdoutLine: {'line': b"removing '/home/nat/ws_ruka/install/ruka_gz/lib/python3.12/site-packages/ruka_gz-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[2.193846] (ruka_gz) StdoutLine: {'line': b'Copying ../../build/ruka_gz/ruka_gz.egg-info to /home/nat/ws_ruka/install/ruka_gz/lib/python3.12/site-packages/ruka_gz-0.0.1-py3.12.egg-info\n'}
+[2.195387] (ruka_gz) StdoutLine: {'line': b'running install_scripts\n'}
+[2.208490] (-) TimerEvent: {}
+[2.308866] (-) TimerEvent: {}
+[2.409250] (-) TimerEvent: {}
+[2.429314] (ruka_gz) StdoutLine: {'line': b'Installing ruka script to /home/nat/ws_ruka/install/ruka_gz/bin\n'}
+[2.429729] (ruka_gz) StdoutLine: {'line': b"writing list of installed files to '/home/nat/ws_ruka/build/ruka_gz/install.log'\n"}
+[2.480643] (ruka_gz) CommandEnded: {'returncode': 0}
+[2.498662] (ruka_gz) JobEnded: {'identifier': 'ruka_gz', 'rc': 0}
+[2.499899] (-) EventReactorShutdown: {}

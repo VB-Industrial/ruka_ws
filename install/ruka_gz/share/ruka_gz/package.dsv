@@ -1,0 +1,11 @@
+source;share/ruka_gz/hook/cmake_prefix_path.ps1
+source;share/ruka_gz/hook/cmake_prefix_path.dsv
+source;share/ruka_gz/hook/cmake_prefix_path.sh
+source;share/ruka_gz/hook/ld_library_path_lib.ps1
+source;share/ruka_gz/hook/ld_library_path_lib.dsv
+source;share/ruka_gz/hook/ld_library_path_lib.sh
+source;share/ruka_gz/local_setup.bash
+source;share/ruka_gz/local_setup.dsv
+source;share/ruka_gz/local_setup.ps1
+source;share/ruka_gz/local_setup.sh
+source;share/ruka_gz/local_setup.zsh

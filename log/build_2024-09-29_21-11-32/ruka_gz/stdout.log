@@ -1,0 +1,8 @@
+running egg_info
+creating ../../build/ruka_gz/ruka_gz.egg-info
+writing ../../build/ruka_gz/ruka_gz.egg-info/PKG-INFO
+writing dependency_links to ../../build/ruka_gz/ruka_gz.egg-info/dependency_links.txt
+writing entry points to ../../build/ruka_gz/ruka_gz.egg-info/entry_points.txt
+writing requirements to ../../build/ruka_gz/ruka_gz.egg-info/requires.txt
+writing top-level names to ../../build/ruka_gz/ruka_gz.egg-info/top_level.txt
+writing manifest file '../../build/ruka_gz/ruka_gz.egg-info/SOURCES.txt'

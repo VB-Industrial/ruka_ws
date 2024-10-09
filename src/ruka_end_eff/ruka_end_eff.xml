@@ -1,0 +1,16 @@
+<library path="ruka_end_eff">
+  <class name="ruka/RukaSystem"
+         type="ruka::RukaSystem"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Robot hardware plugin for 6 dof robot tutorial.
+    </description>
+  </class>
+  <class name="ruka/RukaSensor"
+         type="ruka::RukaSensor"
+         base_class_type="hardware_interface::SensorInterface">
+    <description>
+      The ros2_control RRbot example using a system hardware interface-type.
+    </description>
+  </class>
+</library>

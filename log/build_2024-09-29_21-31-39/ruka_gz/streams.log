@@ -1,0 +1,17 @@
+[1.558s] Invoking command in '/home/nat/ws_ruka/src/ruka_gz': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nat/ws_ruka/build/ruka_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nat/ws_ruka/install/ruka_gz/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ruka_gz build --build-base /home/nat/ws_ruka/build/ruka_gz/build install --record /home/nat/ws_ruka/build/ruka_gz/install.log --single-version-externally-managed install_data
+[2.061s] running egg_info
+[2.090s] writing ../../build/ruka_gz/ruka_gz.egg-info/PKG-INFO
+[2.090s] writing dependency_links to ../../build/ruka_gz/ruka_gz.egg-info/dependency_links.txt
+[2.091s] writing entry points to ../../build/ruka_gz/ruka_gz.egg-info/entry_points.txt
+[2.091s] writing requirements to ../../build/ruka_gz/ruka_gz.egg-info/requires.txt
+[2.091s] writing top-level names to ../../build/ruka_gz/ruka_gz.egg-info/top_level.txt
+[2.130s] reading manifest file '../../build/ruka_gz/ruka_gz.egg-info/SOURCES.txt'
+[2.130s] writing manifest file '../../build/ruka_gz/ruka_gz.egg-info/SOURCES.txt'
+[2.131s] running build
+[2.131s] running install
+[2.142s] running install_data
+[2.142s] creating /home/nat/ws_ruka/install/ruka_gz/share/ament_index
+[2.142s] creating /home/nat/ws_ruka/install/ruka_gz/share/ament_index/resource_index
+[2.142s] creating /home/nat/ws_ruka/install/ruka_gz/share/ament_index/resource_index/packages
+[2.143s] error: can't copy 'resource/ruka_gz': doesn't exist or not a regular file
+[2.179s] Invoked command in '/home/nat/ws_ruka/src/ruka_gz' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nat/ws_ruka/build/ruka_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nat/ws_ruka/install/ruka_gz/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ruka_gz build --build-base /home/nat/ws_ruka/build/ruka_gz/build install --record /home/nat/ws_ruka/build/ruka_gz/install.log --single-version-externally-managed install_data

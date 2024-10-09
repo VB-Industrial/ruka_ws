@@ -1,0 +1,10 @@
+/home/nat/ws_ruka/build/ruka/CMakeFiles/uninstall.dir
+/home/nat/ws_ruka/build/ruka/CMakeFiles/ruka_uninstall.dir
+/home/nat/ws_ruka/build/ruka/CMakeFiles/ruka.dir
+/home/nat/ws_ruka/build/ruka/CMakeFiles/test.dir
+/home/nat/ws_ruka/build/ruka/CMakeFiles/edit_cache.dir
+/home/nat/ws_ruka/build/ruka/CMakeFiles/rebuild_cache.dir
+/home/nat/ws_ruka/build/ruka/CMakeFiles/list_install_components.dir
+/home/nat/ws_ruka/build/ruka/CMakeFiles/install.dir
+/home/nat/ws_ruka/build/ruka/CMakeFiles/install/local.dir
+/home/nat/ws_ruka/build/ruka/CMakeFiles/install/strip.dir

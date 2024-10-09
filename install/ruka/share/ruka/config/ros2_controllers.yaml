@@ -1,0 +1,74 @@
+# This config file is used by ros2_control
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    ruka_arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+      
+    imu_broadcaster:
+      type: imu_sensor_broadcaster/IMUSensorBroadcaster
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+ruka_arm_controller:
+  ros__parameters:
+    joints:
+      - base_link__link_01
+      - link_01__link_02
+      - link_02__link_03
+      - link_03__link_04
+      - link_04__link_05
+      - link_05__link_06
+    command_interfaces:
+      - position
+      - velocity
+    state_interfaces:
+      - position
+      - velocity
+      
+imu_broadcaster:
+  ros__parameters:
+
+    update_rate: 100  # Hz
+    sensor_name: imu_sensor
+    frame_id: link_06
+
+
+    # send_calibration: false 
+    # ### accelerometer
+    # accel_x_min: -250.0
+    # accel_x_max: 250.0
+    # accel_y_min: -250.0
+    # accel_y_max: 250.0
+    # accel_z_min: -250.0
+    # accel_z_max: 250.0
+
+    # ### magnetometer
+    # standard calibration
+    # magn_x_min: -600.0
+    # magn_x_max: 600.0
+    # magn_y_min: -600.0
+    # magn_y_max: 600.0
+    # magn_z_min: -600.0
+    # magn_z_max: 600.0
+
+    # # extended calibration
+    # calibration_magn_use_extended: false
+    # magn_ellipsoid_center: [0.0, 0.0, 0.0]
+    # magn_ellipsoid_transform: [0.0, 0.0, 0.0,
+    #                            0.0, 0.0, 0.0,
+    #                            0.0, 0.0, 0.0]
+
+    # ### gyroscope
+    # gyro_average_offset_x: 0.0
+    # gyro_average_offset_y: 0.0
+    # gyro_average_offset_z: 0.0
+
+
+
+
+    static_covariance_orientation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    static_covariance_angular_velocity: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    static_covariance_linear_acceleration: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]

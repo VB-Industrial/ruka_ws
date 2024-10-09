@@ -1,0 +1,10 @@
+[1.540s] Invoking command in '/home/nat/ws_ruka/src/ruka_gz': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nat/ws_ruka/build/ruka_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nat/ws_ruka/install/ruka_gz/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ruka_gz build --build-base /home/nat/ws_ruka/build/ruka_gz/build install --record /home/nat/ws_ruka/build/ruka_gz/install.log --single-version-externally-managed install_data
+[1.882s] WARNING: '/home/nat/ruka_gz' not a valid package name; please use only .-separated package names in setup.py
+[2.032s] running egg_info
+[2.068s] writing ../../build/ruka_gz/ruka_gz.egg-info/PKG-INFO
+[2.068s] writing dependency_links to ../../build/ruka_gz/ruka_gz.egg-info/dependency_links.txt
+[2.068s] writing entry points to ../../build/ruka_gz/ruka_gz.egg-info/entry_points.txt
+[2.069s] writing requirements to ../../build/ruka_gz/ruka_gz.egg-info/requires.txt
+[2.069s] writing top-level names to ../../build/ruka_gz/ruka_gz.egg-info/top_level.txt
+[2.106s] error: package directory '/home/nat/ruka_gz' does not exist
+[2.146s] Invoked command in '/home/nat/ws_ruka/src/ruka_gz' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nat/ws_ruka/build/ruka_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nat/ws_ruka/install/ruka_gz/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ruka_gz build --build-base /home/nat/ws_ruka/build/ruka_gz/build install --record /home/nat/ws_ruka/build/ruka_gz/install.log --single-version-externally-managed install_data

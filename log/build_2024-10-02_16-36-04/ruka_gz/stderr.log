@@ -1,0 +1,11 @@
+[31mCMake Error at CMakeLists.txt:31 (add_library):
+  Cannot find source file:
+
+    hardware/ruka_gz_sensor_hardware.cpp
+
+[0m
+[31mCMake Error at CMakeLists.txt:31 (add_library):
+  No SOURCES given to target: ruka_gz
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

@@ -1,0 +1,43 @@
+[0.029s] Invoking command in '/home/nat/ws_ruka/build/ruka_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nat/ws_ruka/build/ruka_gz -- -j12 -l12
+[0.205s] [100%] Built target ruka_gz
+[0.235s] Invoked command in '/home/nat/ws_ruka/build/ruka_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nat/ws_ruka/build/ruka_gz -- -j12 -l12
+[0.334s] Invoking command in '/home/nat/ws_ruka/build/ruka_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nat/ws_ruka/build/ruka_gz
+[0.354s] -- Install configuration: ""
+[0.355s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/ruka_gz.xml
+[0.355s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/launch
+[0.356s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/launch/rsp.launch.py
+[0.356s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/launch/gazebo.launch.py
+[0.356s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/launch/launch_sim.launch.py
+[0.357s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config
+[0.357s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/shok_controllers.yaml
+[0.357s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/ruka_gz.urdf.xacro
+[0.357s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/ruka_gz.urdf
+[0.357s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/ruka_gz.ros2_control.xacro
+[0.357s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/initial_positions.yaml
+[0.358s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/include/ruka_gz
+[0.358s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/include/ruka_gz/visibility_control.h
+[0.358s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/include/ruka_gz/ruka_hardware.hpp
+[0.358s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/lib/libruka_gz.so
+[0.358s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/environment/library_path.sh
+[0.359s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/environment/library_path.dsv
+[0.359s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ament_index/resource_index/package_run_dependencies/ruka_gz
+[0.359s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ament_index/resource_index/parent_prefix_path/ruka_gz
+[0.359s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/environment/ament_prefix_path.sh
+[0.359s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/environment/ament_prefix_path.dsv
+[0.360s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/environment/path.sh
+[0.360s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/environment/path.dsv
+[0.360s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/local_setup.bash
+[0.360s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/local_setup.sh
+[0.360s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/local_setup.zsh
+[0.360s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/local_setup.dsv
+[0.361s] -- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/package.dsv
+[0.361s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ament_index/resource_index/packages/ruka_gz
+[0.361s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ruka_gz
+[0.361s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/cmake/export_ruka_gzExport.cmake
+[0.361s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/cmake/export_ruka_gzExport-noconfig.cmake
+[0.362s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/cmake/ament_cmake_export_targets-extras.cmake
+[0.362s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.362s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/cmake/ruka_gzConfig.cmake
+[0.362s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/cmake/ruka_gzConfig-version.cmake
+[0.362s] -- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/package.xml
+[0.364s] Invoked command in '/home/nat/ws_ruka/build/ruka_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nat/ws_ruka/build/ruka_gz

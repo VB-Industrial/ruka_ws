@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ruka_end_eff">
+
+    
+    <xacro:arg name="prefix" default="" />
+   
+    
+   
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import ruka urdf file -->
+    <xacro:include filename="$(find ruka_end_eff)/config/ruka.urdf" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="$(find ruka_end_eff)/config/ruka.ros2_control.xacro" />
+    <xacro:include filename="$(find ruka_end_eff)/config/ruka_hand.ros2_control.xacro" />
+    <xacro:include filename="$(find ruka_end_eff)/config/imu.ros2_control.xacro" />
+
+    <xacro:ruka_ros2_control name="RukaSystemController" initial_positions_file="$(arg initial_positions_file)"/>
+    <!--
+    <xacro:ruka_ros2_sensor
+     name="ruka" prefix="$(arg prefix)"
+     use_mock_hardware="$(arg use_mock_hardware)" 
+     mock_sensor_commands="$(arg mock_sensor_commands)" />
+    
+    -->
+    
+    <xacro:ruka_ros2_sensor
+     name="RukaSensorSee" prefix="$(arg prefix)"
+      />
+    
+     <xacro:ruka_hand_ros2_control name="RukaHandFakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+</robot>

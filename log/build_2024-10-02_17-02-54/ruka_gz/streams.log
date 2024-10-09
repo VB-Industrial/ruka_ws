@@ -1,0 +1,12 @@
+[0.016s] Invoking command in '/home/nat/ws_ruka/build/ruka_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nat/ws_ruka/build/ruka_gz -- -j12 -l12
+[0.095s] [ 50%] [32mBuilding CXX object CMakeFiles/ruka_gz.dir/hardware/ruka_gz_hardware.cpp.o[0m
+[0.305s] In file included from [01m[K/home/nat/ws_ruka/src/ruka_gz/hardware/include/ruka_gz_hardware.hpp:9[m[K,
+[0.305s]                  from [01m[K/home/nat/ws_ruka/src/ruka_gz/hardware/ruka_gz_hardware.cpp:1[m[K:
+[0.306s] [01m[K/opt/ros/jazzy/include/gz_ros2_control/gz_system_interface.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kgz/sim/System.hh: No such file or directory
+[0.306s]    24 | #include [01;31m[K<gz/sim/System.hh>[m[K
+[0.306s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.306s] compilation terminated.
+[0.308s] gmake[2]: *** [CMakeFiles/ruka_gz.dir/build.make:76: CMakeFiles/ruka_gz.dir/hardware/ruka_gz_hardware.cpp.o] Error 1
+[0.309s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ruka_gz.dir/all] Error 2
+[0.309s] gmake: *** [Makefile:146: all] Error 2
+[0.312s] Invoked command in '/home/nat/ws_ruka/build/ruka_gz' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nat/ws_explorer/install/ros2_control_demo_testing:/home/nat/roverchallenge-ru/install/simulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nat/ws_ruka/build/ruka_gz -- -j12 -l12

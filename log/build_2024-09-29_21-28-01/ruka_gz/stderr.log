@@ -1,0 +1,2 @@
+WARNING: '/home/nat/ruka_gz' not a valid package name; please use only .-separated package names in setup.py
+error: package directory '/home/nat/ruka_gz' does not exist

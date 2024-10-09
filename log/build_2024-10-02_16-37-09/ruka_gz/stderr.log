@@ -1,0 +1,5 @@
+[31mCMake Error at cmake_install.cmake:58 (file):
+  file INSTALL cannot find "/home/nat/ws_ruka/src/ruka_gz/.setup_assistant":
+  No such file or directory.
+
+[0m

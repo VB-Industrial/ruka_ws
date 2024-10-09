@@ -1,0 +1,15 @@
+running egg_info
+writing ../../build/ruka_gz/ruka_gz.egg-info/PKG-INFO
+writing dependency_links to ../../build/ruka_gz/ruka_gz.egg-info/dependency_links.txt
+writing entry points to ../../build/ruka_gz/ruka_gz.egg-info/entry_points.txt
+writing requirements to ../../build/ruka_gz/ruka_gz.egg-info/requires.txt
+writing top-level names to ../../build/ruka_gz/ruka_gz.egg-info/top_level.txt
+reading manifest file '../../build/ruka_gz/ruka_gz.egg-info/SOURCES.txt'
+writing manifest file '../../build/ruka_gz/ruka_gz.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/nat/ws_ruka/install/ruka_gz/share/ament_index
+creating /home/nat/ws_ruka/install/ruka_gz/share/ament_index/resource_index
+creating /home/nat/ws_ruka/install/ruka_gz/share/ament_index/resource_index/packages
+error: can't copy 'resource/ruka_gz': doesn't exist or not a regular file

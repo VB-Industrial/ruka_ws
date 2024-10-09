@@ -1,0 +1,19 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ruka_gz.dir/hardware/ruka_gz_hardware.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libruka_gz.so[0m
+[100%] Built target ruka_gz
+-- Install configuration: ""
+-- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/ruka_gz.xml
+-- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/launch
+-- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/launch/gazebo.launch.py
+-- Up-to-date: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config
+-- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/ros2_controllers.yaml
+-- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/ruka_gz.urdf.xacro
+-- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/ruka_gz.urdf
+-- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/ruka_gz.ros2_control.xacro
+-- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/params.yaml
+-- Installing: /home/nat/ws_ruka/install/ruka_gz/share/ruka_gz/config/initial_positions.yaml
+[31mCMake Error at cmake_install.cmake:58 (file):
+  file INSTALL cannot find "/home/nat/ws_ruka/src/ruka_gz/.setup_assistant":
+  No such file or directory.
+
+[0m

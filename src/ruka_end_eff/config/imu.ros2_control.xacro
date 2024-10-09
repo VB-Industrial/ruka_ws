@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="ruka_ros2_sensor" params="name prefix use_mock_hardware:=^|true mock_sensor_commands:=^|false">
+
+    <ros2_control name="${name}" type="sensor">
+  <!--   <hardware>
+                 By default, set up controllers for simulation. This won't work on real hardware 
+                <plugin>ruka/RukaSensor</plugin>
+      </hardware>
+      
+      -->
+      <hardware>
+          <plugin>ruka/RukaSensor</plugin>
+          
+          <param name="example_param_hw_start_duration_sec">0.0</param>
+          <param name="example_param_hw_stop_duration_sec">3.0</param>
+       <!--   <param name="example_param_max_sensor_change">5.0</param>
+       -->
+      </hardware>
+<!--
+      <sensor name="x">
+      
+        <state_interface name="orientation.x"/>
+	<param name="frame_id">link_06</param>
+      </sensor>
+       -->
+      <sensor name="${prefix}imu_sensor">
+        <state_interface name="orientation.x"/>
+        <state_interface name="orientation.y"/>
+        <state_interface name="orientation.z"/>
+        <state_interface name="angular_velocity.x"/>
+        <state_interface name="angular_velocity.y"/>
+        <state_interface name="angular_velocity.z"/>
+        
+       <!--
+        <state_interface name="force.y"/>
+        <state_interface name="force.z"/>
+        <state_interface name="torque.x"/>
+        <state_interface name="torque.y"/>
+        <state_interface name="torque.z"/>
+        -->
+        <param name="frame_id">link_06</param>
+       <!--
+        <param name="fx_range">100</param>
+        <param name="fy_range">100</param>
+        <param name="fz_range">100</param>
+        <param name="tx_range">15</param>
+        <param name="ty_range">15</param>
+        <param name="tz_range">15</param>
+        -->
+      </sensor>
+       
+    </ros2_control>
+  </xacro:macro>
+
+</robot>

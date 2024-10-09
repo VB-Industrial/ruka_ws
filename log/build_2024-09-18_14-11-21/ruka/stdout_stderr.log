@@ -1,0 +1,17 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/ruka.dir/hardware/ruka_sensor_hardware.cpp.o[0m
+In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/nat/ws_ruka/src/ruka/hardware/ruka_sensor_hardware.cpp:121[m[K:
+[01m[K/home/nat/ws_ruka/src/ruka/hardware/ruka_sensor_hardware.cpp:123:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  123 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nat/ws_ruka/src/ruka/hardware/ruka_sensor_hardware.cpp:14:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   14 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/nat/ws_ruka/src/ruka/hardware/ruka_sensor_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ruka::RukaSensor::[01;32m[Kread[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/nat/ws_ruka/src/ruka/hardware/ruka_sensor_hardware.cpp:119:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  119 | [01;35m[K}[m[K  // namespace ros2_control_demo_example_5
+      | [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/ruka.dir/build.make:90: CMakeFiles/ruka.dir/hardware/ruka_sensor_hardware.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ruka.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
